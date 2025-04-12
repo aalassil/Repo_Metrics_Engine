@@ -33,7 +33,6 @@ def main():
    numOfProjects = input("Enter the (top) number of projects: ")
    token = input("Enter your own token: ")
    auth = Auth.Token(token)
-   # "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"
 
    retreiveProjects(auth, language, numOfProjects)
 
